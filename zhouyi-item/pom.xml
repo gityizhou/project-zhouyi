@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zhouyi</artifactId>
+        <groupId>com.zhouyi.parent</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+<!--对外提供rest接口的具体实现-->
+    <groupId>com.zhouyi.item</groupId>
+    <artifactId>zhouyi-item</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>zhouyi-item-interface</module>
+        <module>zhouyi-item-service</module>
+    </modules>
+    <!-- 由于是聚合工程，打包方式为pom -->
+    <packaging>pom</packaging>
+
+
+</project>
