@@ -13,5 +13,14 @@
     <artifactId>zhouyi-item-interface</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+<!--        jpa依赖-->
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
